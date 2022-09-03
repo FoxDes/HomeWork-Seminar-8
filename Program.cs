@@ -174,7 +174,7 @@
 // Задача 60: Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. 
 // Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
 
-// Console.Clear();
+Console.Clear();
 // int str = InputInt("Введите длинну строк: ");
 // int row = InputInt("Введите колличество столбцов: ");
 // int depth = InputInt("Введите глубину массива: ");
@@ -201,9 +201,9 @@
 //     Console.WriteLine();
 // }
 
-// int[,,] CreateMassive(int size1, int size2, int size3)
+// int[,,] CreateMassive(int str, int row, int depth)
 // {
-//     int[,,] array = new int[size1, size2, size3];
+//     int[,,] array = new int[str, row, depth];
 //     int[] values = new int[countNums];
 //     int num
 //      = 10;
@@ -239,7 +239,6 @@
 //     Console.Write(output);
 //     return int.Parse(Console.ReadLine());
 // }
-
 
 // Задача 62: Заполните спирально массив 4 на 4.
 
